@@ -14,6 +14,8 @@
 		A3B18AC91F3611BA00C0E3BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B18AC71F3611BA00C0E3BC /* LaunchScreen.storyboard */; };
 		A3B18AD41F3611BA00C0E3BC /* WaterFallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B18AD31F3611BA00C0E3BC /* WaterFallTests.swift */; };
 		A3B18ADF1F3611BA00C0E3BC /* WaterFallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B18ADE1F3611BA00C0E3BC /* WaterFallUITests.swift */; };
+		A3B18AED1F36120700C0E3BC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B18AEC1F36120700C0E3BC /* UIColor+Extension.swift */; };
+		A3B18AEF1F36122E00C0E3BC /* WaterFallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B18AEE1F36122E00C0E3BC /* WaterFallFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A3B18ADA1F3611BA00C0E3BC /* WaterFallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B18ADE1F3611BA00C0E3BC /* WaterFallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallUITests.swift; sourceTree = "<group>"; };
 		A3B18AE01F3611BA00C0E3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B18AEC1F36120700C0E3BC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A3B18AEE1F36122E00C0E3BC /* WaterFallFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFallFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				A3B18ABE1F3611BA00C0E3BC /* AppDelegate.swift */,
 				A3B18AC01F3611BA00C0E3BC /* ViewController.swift */,
+				A3B18AEE1F36122E00C0E3BC /* WaterFallFlowLayout.swift */,
+				A3B18AEC1F36120700C0E3BC /* UIColor+Extension.swift */,
 				A3B18AC21F3611BA00C0E3BC /* Main.storyboard */,
 				A3B18AC51F3611BA00C0E3BC /* Assets.xcassets */,
 				A3B18AC71F3611BA00C0E3BC /* LaunchScreen.storyboard */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B18AEF1F36122E00C0E3BC /* WaterFallFlowLayout.swift in Sources */,
+				A3B18AED1F36120700C0E3BC /* UIColor+Extension.swift in Sources */,
 				A3B18AC11F3611BA00C0E3BC /* ViewController.swift in Sources */,
 				A3B18ABF1F3611BA00C0E3BC /* AppDelegate.swift in Sources */,
 			);
